@@ -56,8 +56,6 @@ UI never contains streak logic; it only calls `StreakCalculator`.
 ## Tests
 `app/src/test/.../StreakCalculatorTest.kt` and `ReminderPlannerTest.kt` — 26 tests covering: the task's example, missed day breaking a streak, unscheduled days, partial progress, editing a past day, N-times-per-week, week boundaries, logs near midnight, reminder planning.
 
-## AI usage disclosure
-This project was built with help from an LLM (Claude). The LLM generated the initial code for all modules (domain, data, reminder, ui) and the unit tests. I ran the app on an emulator and a real phone, tested reminders (including mark-done from the notification), ran all 26 unit tests, found and had the past-day backfill issue fixed, and reviewed the code, especially `StreakCalculator.kt`, `ReminderScheduler.kt` and `HabitRepository.kt`. 
 
 ## AI Usage Disclosure
 
